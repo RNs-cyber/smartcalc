@@ -1,3 +1,8 @@
+from kivy.app import App
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.textinput import TextInput
+from kivy.uix.button import Button
+import math
 
 class SmartCalc(App):
     def build(self):
